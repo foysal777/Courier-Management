@@ -17,19 +17,27 @@
 
   
 - POST https://courier-management-eight.vercel.app/api/profile-update/
- - postman credential
- - Authorization : token barer (N.B. token will be expired every 5 minutes) 
- - header : content-type : application/json
+   - postman credential
+   - Authorization : token barer (N.B. token will be expired every 5 minutes) 
+   - header : content-type : application/json
    
- - https://courier-management-eight.vercel.app/api/orders/
+ - POST https://courier-management-eight.vercel.app/api/orders/
    -Postman Credential
    - Must be authenticated by access token authorisation & headers
    - pickup_address ,delivery_address ,price  use this form data or json  
    
 
- - 
- - https://courier-management-eight.vercel.app/api/my_orders/
+   
+ - GET https://courier-management-eight.vercel.app/api/my_orders/
+    - postman credential
+    - Must be authenticated by access token authorisation & headers (GET request )
+   
  - https://courier-management-eight.vercel.app/api/my_assigned_orders/
+     - Must be give token delivery man
+     - get request
+     - authorization & headers add 
+      
+ - 
  - https://courier-management-eight.vercel.app/api/orders/1/update_status/
  - https://courier-management-eight.vercel.app/api/all_orders/
  - https://courier-management-eight.vercel.app/api/ad/1/assign_order/
