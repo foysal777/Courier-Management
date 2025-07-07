@@ -14,6 +14,16 @@
  - postman credential
  - Authorization : token barer
  - header : content-type : application/json
+ - https://courier-management-eight.vercel.app/api/orders/
+ - https://courier-management-eight.vercel.app/api/my_orders/
+ - https://courier-management-eight.vercel.app/api/my_assigned_orders/
+ - https://courier-management-eight.vercel.app/api/orders/1/update_status/
+ - https://courier-management-eight.vercel.app/api/all_orders/
+ - https://courier-management-eight.vercel.app/api/ad/1/assign_order/
+ - https://courier-management-eight.vercel.app/api/stripe-payment/
+ - https://courier-management-eight.vercel.app/api/success/
+ - https://courier-management-eight.vercel.app/api/cancel/      
+ - 
  
   
 
