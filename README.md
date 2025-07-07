@@ -37,10 +37,22 @@
      - get request
      - authorization & headers add 
       
- - 
+   
  - https://courier-management-eight.vercel.app/api/orders/1/update_status/
+    - must be use patch request
+    - need admin token
+    - give actual params
+    - authorization & headers included
+    
  - https://courier-management-eight.vercel.app/api/all_orders/
+     - must to add admin access token
+     - get request
+     - authorisation & header add 
+
+   
  - https://courier-management-eight.vercel.app/api/ad/1/assign_order/
+
+   
  - https://courier-management-eight.vercel.app/api/stripe-payment/
  - https://courier-management-eight.vercel.app/api/success/
  - https://courier-management-eight.vercel.app/api/cancel/      
