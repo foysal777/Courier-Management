@@ -4,7 +4,15 @@ Develop a scalable RESTful backend API for a Courier Management System.
  The system must support multiple roles and allow users to place and track orders, delivery men to manage assigned orders, and admins to manage the entire system.
 
 
+
 # API EndPoint
+- For Admin
+ ( username = admin , password = 123 )
+- For user
+ ( username = sohel , password = sdfDSG343@ )
+- For delivery Man
+ ( username = akhi , password = sdfDSG343@ )
+
 - https://courier-management-eight.vercel.app/admin   ( username = admin , password = 123 )
 - POST https://courier-management-eight.vercel.app/api/token/
   - Postman credentials
