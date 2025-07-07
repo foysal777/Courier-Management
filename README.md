@@ -9,7 +9,7 @@
 -  refresh : your refesh token is here
 - POST https://courier-management-eight.vercel.app/api/register/
 - postman credential
-- username , password , password2, email , first_name , last_name 
+- username , password , password2, email , first_name , last_name  , role
 - 
 - 
  
