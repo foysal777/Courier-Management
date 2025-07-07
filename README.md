@@ -10,8 +10,10 @@
 - POST https://courier-management-eight.vercel.app/api/register/
 - postman credential
 - username , password , password2, email , first_name , last_name  , role
-- 
-- 
+- POST https://courier-management-eight.vercel.app/api/profile-update/
+ - postman credential
+ - Authorization : token barer
+ - header : content-type : application/json
  
   
 
