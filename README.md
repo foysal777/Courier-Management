@@ -4,6 +4,10 @@
 - postman credential
 - username : admin
 - password : 123
+- POST https://courier-management-eight.vercel.app/api/token/refresh/
+-  refresh : your refesh token is here
+- 
+- 
  
   
 
