@@ -51,12 +51,26 @@
 
    
  - https://courier-management-eight.vercel.app/api/ad/1/assign_order/
+     - Patch request
+     - use admin token
+     - add credential  delivery_id:2
+        
 
    
  - https://courier-management-eight.vercel.app/api/stripe-payment/
+    - Get request
+    - authorisation & pass token must
+    - see the checkout Url , click to see stripe payment gateway
+  
+      
  - https://courier-management-eight.vercel.app/api/success/
+
+     - get request
+     - see html successfull page
+     - 
  - https://courier-management-eight.vercel.app/api/cancel/      
- - 
+     -get request
+     - see the html cancel page
  
   
 
