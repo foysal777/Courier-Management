@@ -25,6 +25,9 @@ class UserAdmin(BaseUserAdmin):
 admin.site.register(User, UserAdmin)
 
 
+class OrderAdmin(admin.ModelAdmin):
+    list_display = ['id', 'user', 'created_at']  
+    ordering = ['user__username']
 admin.site.register(Order)
 
 
